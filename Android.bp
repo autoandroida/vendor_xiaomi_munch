@@ -351,34 +351,11 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "MiuiSystemUI.apk",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/MiuiSystemUI/MiuiSystemUI.apk.ab",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
 
 android_app_import {
 	name: "QAS_DVC_MSP",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/QAS_DVC_MSP/QAS_DVC_MSP.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "Settings.apk",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk.aa",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -399,29 +376,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-android_app_import {
-	name: "Settings.apk",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk.ac",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "Settings.apk",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/Settings/Settings.apk.ad",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
 
 android_app_import {
 	name: "SetupWizard",
